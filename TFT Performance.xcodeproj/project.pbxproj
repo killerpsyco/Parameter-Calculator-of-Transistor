@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C3982A31B2E9C1C00055507 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3982A21B2E9C1C00055507 /* AppDelegate.swift */; };
+		5C3982A51B2E9C1C00055507 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3982A41B2E9C1C00055507 /* AddViewController.swift */; };
+		5C3982A81B2E9C1C00055507 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C3982A61B2E9C1C00055507 /* Main.storyboard */; };
+		5C3982AA1B2E9C1C00055507 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C3982A91B2E9C1C00055507 /* Images.xcassets */; };
+		5C3982AD1B2E9C1C00055507 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C3982AB1B2E9C1C00055507 /* LaunchScreen.xib */; };
+		5C3982B91B2E9C1C00055507 /* TFT_PerformanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3982B81B2E9C1C00055507 /* TFT_PerformanceTests.swift */; };
+		5C3A1BAB1B5E58A4008A1306 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3A1BAA1B5E58A4008A1306 /* CalculatorViewController.swift */; };
+		5C400E621B31691700456E24 /* DataTableViewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C400E611B31691700456E24 /* DataTableViewcontroller.swift */; };
+		5C44A1C81B2FED3E001E6E7A /* PerformanceCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C44A1C71B2FED3E001E6E7A /* PerformanceCalculator.swift */; };
+		5C44A1CA1B301A42001E6E7A /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C44A1C91B301A42001E6E7A /* Database.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C3982B31B2E9C1C00055507 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C3982951B2E9C1B00055507 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C39829C1B2E9C1B00055507;
+			remoteInfo = "TFT Performance";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C39829D1B2E9C1B00055507 /* TFT Performance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TFT Performance.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C3982A11B2E9C1C00055507 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C3982A21B2E9C1C00055507 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5C3982A41B2E9C1C00055507 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		5C3982A71B2E9C1C00055507 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C3982A91B2E9C1C00055507 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5C3982AC1B2E9C1C00055507 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5C3982B21B2E9C1C00055507 /* TFT PerformanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TFT PerformanceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C3982B71B2E9C1C00055507 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C3982B81B2E9C1C00055507 /* TFT_PerformanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TFT_PerformanceTests.swift; sourceTree = "<group>"; };
+		5C3A1BAA1B5E58A4008A1306 /* CalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
+		5C400E611B31691700456E24 /* DataTableViewcontroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataTableViewcontroller.swift; sourceTree = "<group>"; };
+		5C44A1C71B2FED3E001E6E7A /* PerformanceCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerformanceCalculator.swift; sourceTree = "<group>"; };
+		5C44A1C91B301A42001E6E7A /* Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C39829A1B2E9C1B00055507 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C3982AF1B2E9C1C00055507 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C3982941B2E9C1B00055507 = {
+			isa = PBXGroup;
+			children = (
+				5C39829F1B2E9C1B00055507 /* TFT Performance */,
+				5C3982B51B2E9C1C00055507 /* TFT PerformanceTests */,
+				5C39829E1B2E9C1B00055507 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C39829E1B2E9C1B00055507 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C39829D1B2E9C1B00055507 /* TFT Performance.app */,
+				5C3982B21B2E9C1C00055507 /* TFT PerformanceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C39829F1B2E9C1B00055507 /* TFT Performance */ = {
+			isa = PBXGroup;
+			children = (
+				5C3982A41B2E9C1C00055507 /* AddViewController.swift */,
+				5C3982A61B2E9C1C00055507 /* Main.storyboard */,
+				5C3A1BAA1B5E58A4008A1306 /* CalculatorViewController.swift */,
+				5C400E611B31691700456E24 /* DataTableViewcontroller.swift */,
+				5C44A1C71B2FED3E001E6E7A /* PerformanceCalculator.swift */,
+				5C44A1C91B301A42001E6E7A /* Database.swift */,
+				5C3982A01B2E9C1B00055507 /* Supporting Files */,
+			);
+			path = "TFT Performance";
+			sourceTree = "<group>";
+		};
+		5C3982A01B2E9C1B00055507 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C3982A21B2E9C1C00055507 /* AppDelegate.swift */,
+				5C3982A91B2E9C1C00055507 /* Images.xcassets */,
+				5C3982AB1B2E9C1C00055507 /* LaunchScreen.xib */,
+				5C3982A11B2E9C1C00055507 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5C3982B51B2E9C1C00055507 /* TFT PerformanceTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C3982B81B2E9C1C00055507 /* TFT_PerformanceTests.swift */,
+				5C3982B61B2E9C1C00055507 /* Supporting Files */,
+			);
+			path = "TFT PerformanceTests";
+			sourceTree = "<group>";
+		};
+		5C3982B61B2E9C1C00055507 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C3982B71B2E9C1C00055507 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C39829C1B2E9C1B00055507 /* TFT Performance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C3982BC1B2E9C1C00055507 /* Build configuration list for PBXNativeTarget "TFT Performance" */;
+			buildPhases = (
+				5C3982991B2E9C1B00055507 /* Sources */,
+				5C39829A1B2E9C1B00055507 /* Frameworks */,
+				5C39829B1B2E9C1B00055507 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TFT Performance";
+			productName = "TFT Performance";
+			productReference = 5C39829D1B2E9C1B00055507 /* TFT Performance.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C3982B11B2E9C1C00055507 /* TFT PerformanceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C3982BF1B2E9C1C00055507 /* Build configuration list for PBXNativeTarget "TFT PerformanceTests" */;
+			buildPhases = (
+				5C3982AE1B2E9C1C00055507 /* Sources */,
+				5C3982AF1B2E9C1C00055507 /* Frameworks */,
+				5C3982B01B2E9C1C00055507 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C3982B41B2E9C1C00055507 /* PBXTargetDependency */,
+			);
+			name = "TFT PerformanceTests";
+			productName = "TFT PerformanceTests";
+			productReference = 5C3982B21B2E9C1C00055507 /* TFT PerformanceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C3982951B2E9C1B00055507 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = dyx;
+				TargetAttributes = {
+					5C39829C1B2E9C1B00055507 = {
+						CreatedOnToolsVersion = 6.3.2;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+					5C3982B11B2E9C1C00055507 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 5C39829C1B2E9C1B00055507;
+					};
+				};
+			};
+			buildConfigurationList = 5C3982981B2E9C1B00055507 /* Build configuration list for PBXProject "TFT Performance" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C3982941B2E9C1B00055507;
+			productRefGroup = 5C39829E1B2E9C1B00055507 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C39829C1B2E9C1B00055507 /* TFT Performance */,
+				5C3982B11B2E9C1C00055507 /* TFT PerformanceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C39829B1B2E9C1B00055507 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C3982A81B2E9C1C00055507 /* Main.storyboard in Resources */,
+				5C3982AD1B2E9C1C00055507 /* LaunchScreen.xib in Resources */,
+				5C3982AA1B2E9C1C00055507 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C3982B01B2E9C1C00055507 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C3982991B2E9C1B00055507 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C3982A51B2E9C1C00055507 /* AddViewController.swift in Sources */,
+				5C3982A31B2E9C1C00055507 /* AppDelegate.swift in Sources */,
+				5C44A1CA1B301A42001E6E7A /* Database.swift in Sources */,
+				5C400E621B31691700456E24 /* DataTableViewcontroller.swift in Sources */,
+				5C3A1BAB1B5E58A4008A1306 /* CalculatorViewController.swift in Sources */,
+				5C44A1C81B2FED3E001E6E7A /* PerformanceCalculator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C3982AE1B2E9C1C00055507 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C3982B91B2E9C1C00055507 /* TFT_PerformanceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C3982B41B2E9C1C00055507 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C39829C1B2E9C1B00055507 /* TFT Performance */;
+			targetProxy = 5C3982B31B2E9C1C00055507 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5C3982A61B2E9C1C00055507 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C3982A71B2E9C1C00055507 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C3982AB1B2E9C1C00055507 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C3982AC1B2E9C1C00055507 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C3982BA1B2E9C1C00055507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5C3982BB1B2E9C1C00055507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C3982BD1B2E9C1C00055507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "TFT Performance/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5C3982BE1B2E9C1C00055507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "TFT Performance/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5C3982C01B2E9C1C00055507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TFT PerformanceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TFT Performance.app/TFT Performance";
+			};
+			name = Debug;
+		};
+		5C3982C11B2E9C1C00055507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TFT PerformanceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TFT Performance.app/TFT Performance";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C3982981B2E9C1B00055507 /* Build configuration list for PBXProject "TFT Performance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C3982BA1B2E9C1C00055507 /* Debug */,
+				5C3982BB1B2E9C1C00055507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C3982BC1B2E9C1C00055507 /* Build configuration list for PBXNativeTarget "TFT Performance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C3982BD1B2E9C1C00055507 /* Debug */,
+				5C3982BE1B2E9C1C00055507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C3982BF1B2E9C1C00055507 /* Build configuration list for PBXNativeTarget "TFT PerformanceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C3982C01B2E9C1C00055507 /* Debug */,
+				5C3982C11B2E9C1C00055507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C3982951B2E9C1B00055507 /* Project object */;
+}
